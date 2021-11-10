@@ -5,10 +5,8 @@
              Title="Notes">
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add"
-                     Clicked="OnAddClicked" />
+        <ToolbarItem Text="Add" Clicked="OnAddClicked" />
     </ContentPage.ToolbarItems>
-
     <!-- Display notes in a list -->
     <CollectionView x:Name="collectionView"
                     Margin="20"
